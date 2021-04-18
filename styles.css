@@ -1,0 +1,54 @@
+/* add your CSS here */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 320px;
+    border: 2px solid tan;
+    box-shadow: 5px 5px 5px lightgray;
+    background-color: #003300;
+    border-radius: 10px;
+}
+
+.info {
+    margin: 10px;
+    padding: 0 10px 0 10px;
+    border: 1px solid tan;
+    font-size: 0.7em;
+}
+
+h3, img {
+    margin-left: 10px;
+}
+
+.fact {
+    font-style: italic;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+.footer {
+    position: absolute;
+    bottom:0;
+    width:100%;
+}
+
+.footer p {
+    color: #003300;
+    font: bold 10pt Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
